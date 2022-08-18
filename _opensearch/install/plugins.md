@@ -19,6 +19,9 @@ You can install individual plugins on an OpenSearch cluster.
 
 ## Install a plugin
 
+If you are running OpenSearch in a Docker container, plugins must be installed, removed, and configured by modifying the Docker image. For information, see [Install, configure or remove plugins]({{site.url}}{{site.baseurl}}/opensearch/install/docker#install-configure-or-remove-plugins)
+{: .note}
+
 The install command takes a plugin id, which may be any of the following:
 
 - An official OpenSearch plugin name
@@ -63,6 +66,45 @@ bin/opensearch-plugin list
   </thead>
   <tbody>
   <tr>
+  <tr>
+    <td>2.2.0</td>
+    <td>
+       <pre>opensearch-alerting                  2.2.0.0
+opensearch-anomaly-detection         2.2.0.0
+opensearch-asynchronous-search       2.2.0.0
+opensearch-cross-cluster-replication 2.2.0.0
+opensearch-index-management          2.2.0.0
+opensearch-job-scheduler             2.2.0.0
+opensearch-knn                       2.2.0.0
+opensearch-ml                        2.2.0.0
+opensearch-observability             2.2.0.0
+opensearch-performance-analyzer      2.2.0.0
+opensearch-reports-scheduler         2.2.0.0
+opensearch-security                  2.2.0.0
+opensearch-sql                       2.2.0.0
+</pre>
+</td>
+</tr>
+    <tr>
+    <td>2.1.0.0</td>
+    <td>
+      <pre>opensearch-alerting                  2.1.0.0
+opensearch-anomaly-detection         2.1.0.0
+opensearch-asynchronous-search       2.1.0.0
+opensearch-cross-cluster-replication 2.1.0.0
+opensearch-index-management          2.1.0.0
+opensearch-job-scheduler             2.1.0.0
+opensearch-knn                       2.1.0.0
+opensearch-ml                        2.1.0.0
+opensearch-notifications             2.1.0.0
+opensearch-observability             2.1.0.0
+opensearch-performance-analyzer      2.1.0.0
+opensearch-reports-scheduler         2.1.0.0
+opensearch-security                  2.1.0.0
+opensearch-sql                       2.1.0.0
+</pre>
+</td>
+</tr>
     <tr>
     <td>2.0.1.0</td>
     <td>
