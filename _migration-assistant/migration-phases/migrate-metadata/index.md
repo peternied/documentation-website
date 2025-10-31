@@ -176,6 +176,7 @@ For information about handling specific field type compatibility issues, see:
 - [Transform `flattened` to `flat_object` fields]({{site.url}}{{site.baseurl}}/migration-assistant/migration-phases/migrate-metadata/transform-flattened-flat-object/) -- Automatically transform `flattened` to `flat_object` fields.
 - [Transform `string` to `text`/`keyword` fields]({{site.url}}{{site.baseurl}}/migration-assistant/migration-phases/migrate-metadata/transform-string-text-keyword/) -- Automatically transform `string` to `text`/`keyword` fields.
 - [Transform `dense_vector` to `knn_vector` fields]({{site.url}}{{site.baseurl}}/migration-assistant/migration-phases/migrate-metadata/transform-dense-vector-knn-vector/) -- Automatically transform `dense_vector` to `knn_vector` fields.
+- [Transform ngram diff setting]({{site.url}}{{site.baseurl}}/migration-assistant/migration-phases/migrate-metadata/transform-ngram-diff-setting/) -- Configure transformation to add `max_ngram_diff` setting to indexes and templates using ngram analyzers.
 
 #### Deprecation of Mapping Types
 
